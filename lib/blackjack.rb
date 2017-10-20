@@ -63,7 +63,7 @@ def runner
   total = initial_round
   while total <= 31
     total == 21 ?
-    end_game(total) ; break : total = hit?(total)
+    end_game(total) break : total = hit?(total)
   end
   end_game(total)
 end
