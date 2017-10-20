@@ -33,6 +33,7 @@ def initial_round
   # code #initial_round here
   flop = deal_card + deal_card
   display_card_total(flop)
+  flop
 end
 
 def hit?
