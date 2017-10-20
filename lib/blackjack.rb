@@ -24,7 +24,7 @@ def get_user_input
 end
 
 def end_game(total)
-  puts "Sorry #{total} is over 21.  Thanks."
+  puts "Sorry, you hit #{total}. Thanks for playing!"
   # code #end_game here
 
 end
