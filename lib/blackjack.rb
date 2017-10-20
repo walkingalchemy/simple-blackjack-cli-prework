@@ -44,12 +44,13 @@ def hit?(total)
     answer == 'h' ?
     total + deal_card : total
   else
-    puts "Please enter a valid command"
+    invalid_command
   end
 end
 
 def invalid_command
   # code invalid_command here
+      puts "Please enter a valid command"
 end
 
 #####################################################
