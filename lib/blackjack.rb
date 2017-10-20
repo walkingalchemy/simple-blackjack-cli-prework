@@ -36,12 +36,14 @@ def initial_round
   flop
 end
 
-def hit?
+def hit?(total)
   # code hit? here
   prompt_user
   if get_user_input == 's' || 'h'
     get_user_input == 'h' ?
-    deal_card : nil
+    total + deal_card : total
+  else
+    puts "Please enter a valid command"
   end
 end
 
