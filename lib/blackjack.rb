@@ -61,7 +61,7 @@ def runner
   # code runner here
   welcome
   total = initial_round
-  while total <= 21
+  until total >= 21
     total == 21 ?
     end_game(total) : total = hit?(total)
   end
