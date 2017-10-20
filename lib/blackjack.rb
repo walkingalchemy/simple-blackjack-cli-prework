@@ -39,8 +39,9 @@ end
 def hit?(total)
   # code hit? here
   prompt_user
-  if get_user_input == 's' || 'h'
-    get_user_input == 'h' ?
+  answer = get_user_input
+  if answer == 's' || 'h'
+    answer == 'h' ?
     total + deal_card : total
   else
     puts "Please enter a valid command"
