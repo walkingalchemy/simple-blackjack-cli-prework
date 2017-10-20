@@ -61,7 +61,9 @@ def runner
   # code runner here
   welcome
   total = initial_round
-  while total < 21
-    total = hit?(total)
+  while total <= 21
+    total == 21 ?
+    end_game : total = hit?(total)
   end
+  end_game
 end
